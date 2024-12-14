@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble App</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      width: 500px;
+      text-align: center;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      position: absolute;
+    }
+
+    canvas {
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      background-color: #e0e0e0;
+      
+    }
+
+    button {
+     position: relative;
+     margin-bottom: 20px;
+     padding: 10px;
+     cursor: pointer;
+     font-size: 20px;
+     cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bubbles App</h1>
+        <canvas id="bubblesCanvas" width="400" height="300"></canvas>
+        <button id="resetButton">Reset</button>
+      </div>
+<script src="app.js" ></script>
+</body>
+</html>
